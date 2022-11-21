@@ -1,6 +1,6 @@
 # real-time-forum
 
-#Objectives
+# Objectives
 On this project you will have to focus on a few points:
 
 Registration and Login
@@ -32,7 +32,7 @@ The user must be able to log out from any page on the forum.
 Posts and Comments
 This part is pretty similar to the first forum. Users must be able to:
 
-#Create posts
+# Create posts
 Posts will have categories as in the first forum
 Create comments on the posts
 See posts in a feed display
@@ -55,7 +55,7 @@ A date that shows when the message was sent
 The user name, that identifies the user that sent the message
 As it is expected, the messages should work in real time, in other words, if a user sends a message, the other user should receive the notification of the new message without refreshing the page. Again this is possible through the usage of WebSockets in backend and frontend.
 
-#Allowed Packages
+# Allowed Packages
 All standard go packages are allowed.
 Gorilla websocket
 sqlite3
